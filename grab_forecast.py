@@ -1,3 +1,5 @@
+import sys
+
 def grab_stdin(text=sys.stdin):
     '''Get input stations from stdin.'''
     stns = []

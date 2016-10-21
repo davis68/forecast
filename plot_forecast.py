@@ -11,8 +11,8 @@ temp = []
 for line in sys.stdin:
     elems = line.split()
     stns.append(elems[0]) #station name
-    locy.append(float(elems[1]))
-    locx.append(float(elems[2]))
+    locy.append(float(elems[2]))
+    locx.append(float(elems[1]))
     temp.append(float(elems[3]))
 
 for (i, stn) in enumerate(stns):
